@@ -1,11 +1,11 @@
-﻿using CourseLibrary.API.DbContexts;
-using CourseLibrary.API.Entities;
-using CourseLibrary.API.ResourceParameters;
+﻿using CourseLibrary.Api.DbContexts;
+using CourseLibrary.Api.Entities;
+using CourseLibrary.Api.ResourceParameters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CourseLibrary.API.Services
+namespace CourseLibrary.Api.Services
 {
     public class CourseLibraryRepository : ICourseLibraryRepository, IDisposable
     {

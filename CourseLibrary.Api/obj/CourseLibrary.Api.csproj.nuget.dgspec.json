@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mary\\Documents\\Work\\999-Utiles\\.Net Core\\CourseLibrary\\CourseLibrary.Api\\CourseLibrary.Api.csproj": {}
+    "C:\\Users\\Mary\\Documents\\Work\\999-Utiles\\.Net Core\\course-library\\CourseLibrary.Api\\CourseLibrary.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mary\\Documents\\Work\\999-Utiles\\.Net Core\\CourseLibrary\\CourseLibrary.Api\\CourseLibrary.Api.csproj": {
+    "C:\\Users\\Mary\\Documents\\Work\\999-Utiles\\.Net Core\\course-library\\CourseLibrary.Api\\CourseLibrary.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mary\\Documents\\Work\\999-Utiles\\.Net Core\\CourseLibrary\\CourseLibrary.Api\\CourseLibrary.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Mary\\Documents\\Work\\999-Utiles\\.Net Core\\course-library\\CourseLibrary.Api\\CourseLibrary.Api.csproj",
         "projectName": "CourseLibrary.Api",
-        "projectPath": "C:\\Users\\Mary\\Documents\\Work\\999-Utiles\\.Net Core\\CourseLibrary\\CourseLibrary.Api\\CourseLibrary.Api.csproj",
+        "projectPath": "C:\\Users\\Mary\\Documents\\Work\\999-Utiles\\.Net Core\\course-library\\CourseLibrary.Api\\CourseLibrary.Api.csproj",
         "packagesPath": "C:\\Users\\Mary\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mary\\Documents\\Work\\999-Utiles\\.Net Core\\CourseLibrary\\CourseLibrary.Api\\obj\\",
+        "outputPath": "C:\\Users\\Mary\\Documents\\Work\\999-Utiles\\.Net Core\\course-library\\CourseLibrary.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -43,6 +43,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.3, )"
