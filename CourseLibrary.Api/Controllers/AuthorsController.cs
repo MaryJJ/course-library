@@ -25,6 +25,7 @@ namespace CourseLibrary.Api.Controllers
         }
 
         [HttpGet()]
+        [HttpHead]
         public IActionResult GetAuthors([FromQuery] AuthorsResourceParameters authorsResourceParameters)
         {
             var authorsFromRepo = _courseLibraryRepository.GetAuthors(authorsResourceParameters);
